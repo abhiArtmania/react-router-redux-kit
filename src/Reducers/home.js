@@ -1,7 +1,11 @@
 import { homeActionType } from '../Constants'
 
 const initialState = {
-  user:{}
+  user:{
+    name:'Abhishek',
+    location:'Varanasi'
+  },
+  languages:[]
 }
 
 const home = (state = initialState, action) => {
@@ -10,8 +14,14 @@ const home = (state = initialState, action) => {
       return {
         ...state,
         user: {
-          name:'ABC'
+          name:'Abhishek Singh',
+          location:'Gurgaon'
         }
+      }
+    case homeActionType.FETCH_LANGUAGES:
+      return {
+        ...state,
+        languages:action.payload
       }
     default:
       return { ...state }

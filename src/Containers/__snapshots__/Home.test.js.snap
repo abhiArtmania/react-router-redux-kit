@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should render properly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(Home)
+        history={
+          Object {
+            "push": [MockFunction],
+          }
+        }
+      >
+        <Home
+          fetchData={[Function]}
+          fetchLanguages={[Function]}
+          history={
+            Object {
+              "push": [MockFunction],
+            }
+          }
+          homeInfo={
+            Object {
+              "user": Object {
+                "location": "Varanasi",
+                "name": "Abhishek",
+              },
+            }
+          }
+        >
+          <div
+            className="home"
+          >
+            <Header>
+              <div
+                className="app-header"
+              >
+                <header
+                  className="App-header"
+                >
+                  <img
+                    alt="logo"
+                    className="App-logo"
+                    src="logo.svg"
+                  />
+                  <h4
+                    className="App-title"
+                  >
+                    Welcome to React
+                  </h4>
+                  <MainMenu>
+                    <div
+                      className="main-menu"
+                    >
+                      <Link
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <button>
+                            Home
+                          </button>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/about"
+                      >
+                        <a
+                          href="/about"
+                          onClick={[Function]}
+                        >
+                          <button>
+                            About
+                          </button>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/services"
+                      >
+                        <a
+                          href="/services"
+                          onClick={[Function]}
+                        >
+                          <button>
+                            Services
+                          </button>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/contact"
+                      >
+                        <a
+                          href="/contact"
+                          onClick={[Function]}
+                        >
+                          <button>
+                            Contact
+                          </button>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/info"
+                      >
+                        <a
+                          href="/info"
+                          onClick={[Function]}
+                        >
+                          <button>
+                            info
+                          </button>
+                        </a>
+                      </Link>
+                    </div>
+                  </MainMenu>
+                </header>
+              </div>
+            </Header>
+            <div
+              className="wrapper"
+            >
+              <div>
+                <h3
+                  data-testid="home-txt"
+                >
+                  Home Page
+                </h3>
+              </div>
+              <p>
+                <span>
+                  <div>
+                    Name: Abhishek
+                  </div>
+                  <div>
+                    Location: Varanasi
+                  </div>
+                  <div>
+                    Email: 
+                  </div>
+                </span>
+              </p>
+              <span>
+                <input
+                  data-testid="email-input"
+                  name="email"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+                <button
+                  data-testid="button"
+                  onClick={[Function]}
+                >
+                  Get language list
+                </button>
+              </span>
+              <div>
+                <p>
+                  <span
+                    data-testid="about-us-link"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "cursor": "pointer",
+                      }
+                    }
+                  >
+                    About Us
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </Home>
+      </Connect(Home)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;
